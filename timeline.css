@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(249, 245, 245);
+    padding: 6px;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+.logo:hover{
+    width: 190px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    font-weight: 700;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 5px;
+    color:black
+
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 1px;
+    font-size: 17px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.hover-menu:hover {
+    color: orange;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical{
+    position: absolute;
+    height: 400vh;
+    width: 4px;
+    background-color: rgb(113, 113, 114);
+    left: 50%;
+}
+
+.container1{
+    height: 60vh;
+    width: 40vw;
+    border: 2px solid black;
+    margin: 25px 30px;
+    padding: 24px 0px;
+    border-radius: 26px;
+    
+}
+.headers{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.content1{
+    font-size: 17px;
+    padding-left: 7px; ;
+}
+.container2{
+    height: 60vh;
+    width: 40vw;
+    border: 2px solid black;
+    float: right;
+    margin: 20px 30px;
+    padding: 24px 0px;
+    border-radius: 26px;
+}
+.content2{
+    font-size: 17px;
+    padding-left: 7px;
+}
+.container3{
+    height: 70vh;
+    width: 40vw;
+    border: 2px solid black;
+    display: block;
+    margin: 25px 30px;
+    padding: 24px 0px;
+    border-radius: 26px;
+    position: relative;
+    top: 68vh;
+}
+.content3{
+    font-size: 17px;
+    padding-left: 7px;
+}
+.container4{
+    height: 105vh;
+    width: 40vw;
+    border: 2px solid black;
+    float: right;
+    position: relative;
+    top: 64vh;
+    margin: 50px 30px;
+    padding: 24px 0px;
+    border-radius: 26px;
+}
+.content4{
+    font-size: 17px;
+    padding-left: 7px;
+}
+footer{
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -103px;
+  background-color: rgb(108, 108, 110);
+  top: 157vh;
+}
+.footer p{
+    margin: 6px;
+    padding-left: 63px;
+}
+.footer img{
+    padding: 15px;
+}
